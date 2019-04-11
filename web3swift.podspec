@@ -13,9 +13,9 @@ s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
 s.source           = { :git => 'https://github.com/matterinc/web3swift.git', :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/shamatar'
 
-s.swift_version = '4.1'
+s.swift_version = '4.2'
 s.module_name = 'web3swift'
-s.ios.deployment_target = "9.0"
+s.ios.deployment_target = "11.0"
 s.osx.deployment_target = "10.11"
 s.source_files = "web3swift/**/*.{h,swift}", 
 s.public_header_files = "web3swift/**/*.{h}"
